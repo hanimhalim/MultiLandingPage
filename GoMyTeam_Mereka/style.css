@@ -1,0 +1,558 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7 em;    
+    background-color: powderblue;
+}
+/* ------------- Header -------------*/
+header {
+    background-color: white;
+}
+
+#navbar .container {
+    margin: auto;
+    max-width: 100%;
+    overflow: auto;
+}
+#navbar img {
+  width: 280px;
+  height: 100px;
+  object-fit: cover;
+}
+
+#navbar ul{
+    float: right; 
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
+}
+
+#navbar li {
+    display: inline;
+    text-align: center;
+    padding: 10 30px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-family: 'Arial';font-size: 22px;
+    color: #12495c;
+    font-style: Poppins;
+}
+
+#navbar a:hover{
+    color: lime;
+    transition:all 1s ease;
+    }
+
+#navbar .nav_link {
+  
+}
+/* -----------------sys----------------- */
+
+.sys {
+    background: url('../img/photo6.jpg')no-repeat center center/cover;
+    height: 700px;
+}
+
+.sys img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.sys h1  {
+    text-align: center;
+    color: #5E5F5F;  
+}
+
+.sys h1 span{
+    color: #12495c;
+
+}
+
+.sys p {
+    text-align: center;
+}
+
+.sys a  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 180px;
+    text-decoration: none;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 100%;
+}
+
+.btn {
+   display: inline-block;
+   font-size: 18px;
+   color: #fff;
+   background: #12495c;
+   padding: 20 0px;
+   border: none; 
+   border-radius: 12px;
+   cursor: pointer;
+}
+.btn:hover{
+    color: #12495c;
+    background: powderblue;
+    transition:all 1s ease;
+    }
+/* ---------------home info------------------- */
+#home-info {
+    height: 500px;
+   
+}
+
+ #home-info .info-img {
+    display: block;
+    float: left;
+    width: 50%;
+    background: url('img/workplaces.jpg') no-repeat; 
+    height: 100%; 
+    
+  
+}
+
+.info-content h2{
+    color: #5E5F5F;
+   text-align: center;
+   padding-top: 5%;
+   font-size: 40pt;
+}
+.info-content h2 span {
+    
+    color: #12495c;
+}
+
+.info-content p{
+    padding-top: 50px;
+    text-align: center;
+}
+#home-info .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+    margin: auto;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: #12495c;margin-top: 80px;
+    padding: 20 0px;
+    border: none; 
+    border-radius: 12px;
+    cursor: pointer;
+}
+ 
+ #home-info .btn:hover{
+    color: #12495c;
+    background: #fff ;
+    transition:all 1s ease;
+    }
+
+/* ---------------clients------------------- */
+   .clients{
+    text-align: center;
+    color: #5E5F5F;  
+    font-size: 30pt;
+   } 
+
+ .client-info {
+    color: #12495c;
+    font-size: 18pt;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+   } 
+   .client-nng {
+    display: inline-table;
+   }
+
+   .client-soosoo {
+    display: inline-table;
+   }
+   .client-kai {
+    display: inline-table;
+   }
+/* ---------------values------------------- */
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 55px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
+}
+
+.bglight {
+    background: #fff;
+    color: #12495c;
+    object-fit: cover;
+    } 
+    
+.bgprimary {
+    color: #fff;
+    background: #12495c;
+    object-fit: cover;
+    } 
+
+/* ---------------Contact------------------- */
+.contacts{
+    color: #5E5F5F;
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contactUs p{
+    color: black;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20 20px;
+}
+
+.contacts a{
+    text-decoration: none;
+    padding: 10 20px;
+}
+/* ------------- Footer -------------*/
+footer {
+    text-align: center ;
+    color: white;
+    background-color: #12495c;
+   padding: 10 20px;
+   position: fixed;
+    bottom: 0;
+}
+
+/* ------------- contact.html -------------*/
+.contact-info {
+    padding: auto;
+    padding-bottom: 20px;
+   
+}
+.contact-info h1{
+ text-align: center;
+ color: #5E5F5F;
+ font-size: 30pt;
+}
+
+.contact-info h2{
+    text-align: center;
+ color: black;
+ font-size: 12pt;
+}
+
+.py-3{
+    padding: 30px 0;
+    text-align: center;
+    
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+#contact-form .container p{
+    margin-bottom: 10px;
+}
+
+.container form {
+    padding: 20px;
+}
+
+#contact-form label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: black;
+}
+
+/* ------------- solution.html -------------*/
+/* Create two equal columns that floats next to each other */
+    .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: bisque;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #option {
+    box-sizing: border-box;
+  }
+ 
+#option , #solution{
+    display: block;
+}
+#solution .solu-text {
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+}
+#solution .solu-img {
+    float: right;
+    width: 50%;
+    background: url('img/hohoh.png') no-repeat; 
+    height: 100%; 
+}
+
+.solu-text h1  {
+    text-align: center;
+    color: #5E5F5F;  
+    font-size: 25pt;
+    padding-bottom: 10px;
+}
+.solu-text h1 span{
+    color: #12495c;
+
+}
+.solu-text p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.solu-text li {
+    text-align: center;
+    list-style-type: none;
+}
+/* ------------- about.html -------------*/
+#about-info .info-right {
+    float: right;
+    width:50% ;
+    min-height: 100%;
+  }
+  
+  #about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 0%;
+  }
+  
+  #about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+  }
+  .solinfo-leftu-text h1  {
+    text-align: center;
+    color: #5E5F5F;  
+    font-size: 30pt;
+    padding-bottom: 10px;
+}
+.info-left h1 span{
+    color: #12495c;
+    font-size: larger;
+
+}
+.info-left p {
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+#comments {
+    height: 100%;
+    background: url('../img/building-2.jpg') no-repeat 
+    center center/cover;
+    padding-top: 100px;
+  }
+  
+  #comments h2 {
+    color: #5E5F5F;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  #comments .comment {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+  }
+  
+  #comments .comment img {
+    width: 100px;
+    float: left;
+    margin: 20px auto ;
+    border-radius: 50%;
+  }
+
+  /* ------------- price.html -------------*/
+
+#pricing {
+    box-sizing: border-box;
+}
+#pricing h1 {
+    text-align: center;
+    padding: 10 20px;
+    font-size: 30pt;
+    color:#5E5F5F;
+}
+#pricing p {
+    text-align: center;
+    padding: 10 20px;
+    font-size: 20pt;
+}
+#pricing .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+#pricing .price {
+    list-style-type: none;
+    border: 1px solid #12495c;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+#pricing .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(147, 65, 65, 0.2)
+  }
+  
+#pricing  .price .header {
+    background-color: #12495c;
+    color: whitesmoke;
+    font-size: 25px;
+  }
+  
+#pricing  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+#pricing  .price .grey {
+    background-color: rgb(231, 231, 186);
+    font-size: 20px;
+  }
+  
+#pricing  .button {
+    background-color: #12495c;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+#pricing  .columns {
+      width: 100%;
+    }
+  }
+
+   /* ------------- login.html -------------*/
+ .login h1 {
+    text-align: center;
+    font-size: 30pt;
+    color: #5E5F5F;
+    padding: 10 10;
+ }
+   form {border: 3px solid #f1f1f1;
+margin-left: 20%;
+margin-right: 20%;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #12495c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  margin-left: 50%;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
